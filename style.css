@@ -1,0 +1,54 @@
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.origami{
+    border-radius: 20px;
+    background-color: rgb(37, 151, 73);
+    padding: 30px; 
+    margin: 25px;
+    width: 310px;
+    font-family: Baskeville Old Face;
+}
+h1 {
+    color:rgb(20, 66, 34);
+    border: 2px solid #000000;
+    border-radius: 50px;
+    padding: 15px; 
+    margin: 25px;
+    font-family: Baskeville Old Face;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    background-color: rgb(168, 201, 167);
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color:darkgreen;
+}
+a:visited{
+    color:darkred;
+}
+a:hover{
+    color:indigo
+}
+.origami:hover{
+    transform: scale(1.1);
+}
